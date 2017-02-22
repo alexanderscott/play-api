@@ -17,8 +17,8 @@ resolvers ++= Seq(
 libraryDependencies ++= Seq(
   "org.postgresql" % "postgresql" % "9.4.1209",
   "com.typesafe.play" %% "play-slick" % "2.0.2",
-  "io.strongtyped" %% "active-slick" % "2.3.2",
-  "com.github.tototoshi" %% "slick-joda-mapper" % "2.2.0"
+  "io.strongtyped" %% "active-slick" % "0.3.4",
+  "com.github.tototoshi" %% "slick-joda-mapper" % "2.2.0",
   "org.joda" % "joda-convert" % "1.0.1",
   "com.ticketfly" %% "play-liquibase" % "1.2",
   ws,
