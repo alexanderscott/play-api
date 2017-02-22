@@ -2,15 +2,21 @@ name := """play-api"""
 
 version := "0.1.0"
 
+scalaVersion := "2.11.8"
+
+fork in Test := true
+parallelExecution in Test := false
+publishArtifact in Test := false
+
 lazy val root = (project in file("."))
   .enablePlugins(PlayScala)
   .enablePlugins(NewRelic)
 
-scalaVersion := "2.11.8"
 
 resolvers ++= Seq(
   Resolver.sonatypeRepo("releases"),
   Resolver.sonatypeRepo("snapshots"),
+  "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/",
   "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
 )
 
