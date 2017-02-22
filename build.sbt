@@ -26,7 +26,7 @@ libraryDependencies ++= Seq(
   "io.strongtyped" %% "active-slick" % "0.3.4",
   "com.github.tototoshi" %% "slick-joda-mapper" % "2.2.0",
   "org.joda" % "joda-convert" % "1.0.1",
-  "com.ticketfly" %% "play-liquibase" % "1.2",
+  "com.ticketfly" %% "play-liquibase" % "1.3",
   ws,
   filters,
   
